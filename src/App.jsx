@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 
 import Sidebar from "./components/Sidebar";
 import {Route, Routes, useNavigate} from 'react-router-dom';
-import {Mindmap} from "./pages";
+import {Mindmap, WebWorkPage} from "./pages";
 const colors = {
     background: "#13131A",
     sunsetGold: "#FFB81C",
@@ -79,6 +79,7 @@ const App = () => {
                 <Routes>
                 <Route path="/" element={<div>Home page</div>}/>
                 <Route path="/Mindmap" element={<Mindmap />} />
+                <Route path="/table" element={<WebWorkPage />} /> {/* Updated route */}
             
 
                 </Routes>

@@ -14,8 +14,9 @@ import dead_planet from "./dead_planet.png";
 import dead_planet3 from "./dead_planet3.png";
 import dead_planet2 from "./dead_planet2.png";
 import sunny from "./sunny.png";
+import rei from "./rei.jpg";
 export { 
   sun, search, menu, loader, 
   records, screening, user, apps, 
-  brain, table, sitemap, settings, dead_planet, dead_planet3, dead_planet2, sunny
+  brain, table, sitemap, settings, dead_planet, dead_planet3, dead_planet2, sunny, rei
 };
